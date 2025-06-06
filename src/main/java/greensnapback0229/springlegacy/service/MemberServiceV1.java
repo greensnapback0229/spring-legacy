@@ -27,4 +27,14 @@ public class MemberServiceV1 {
 
         return memberDtoList;
     }
+
+    public void addMember(String email, String name) {
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setEmail(email);
+        memberEntity.setName(name);
+        memberEntity.setGrade("아이언");
+        memberEntity.setAsset(10L);
+
+        memberRepositoryv1.save(memberEntity);
+    }
 }
