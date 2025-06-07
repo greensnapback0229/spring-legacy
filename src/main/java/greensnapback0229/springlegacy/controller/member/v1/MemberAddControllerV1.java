@@ -1,4 +1,4 @@
-package greensnapback0229.springlegacy.controller.member;
+package greensnapback0229.springlegacy.controller.member.v1;
 
 import greensnapback0229.springlegacy.service.MemberServiceV1;
 import lombok.extern.slf4j.Slf4j;

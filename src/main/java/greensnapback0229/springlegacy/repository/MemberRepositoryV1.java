@@ -1,8 +1,6 @@
 package greensnapback0229.springlegacy.repository;
 
-import greensnapback0229.springlegacy.controller.member.MemberListControllerV1;
 import greensnapback0229.springlegacy.domain.member.MemberEntity;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
